@@ -134,6 +134,7 @@ table {
 	max-height: 50px;
 }
 
+
 .banner{
 	position: relative;
 	margin-bottom: 60px;
@@ -353,7 +354,7 @@ table {
 }
 
 
-.menu li a:hover{
+.menu a:hover,.menu a.active{
 	cursor: pointer;
 	color: #009771;
 }
@@ -374,4 +375,12 @@ table {
 .btn,.red:hover{
 	cursor: pointer;
 
+}
+
+.dropdown-open{
+	display: none;
+}
+
+.dropdown:hover{
+	display: block;
 }
