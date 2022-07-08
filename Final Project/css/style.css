@@ -141,9 +141,7 @@ table {
 	text-align: center;
 	transition: all .3s;
 	z-index: 2;
-	background: white
-
-	
+	background: white;
 }
 
 .menu a:hover,.menu a.active{
@@ -158,17 +156,18 @@ table {
 }
 
 .menu ul {
-	display: none
+	display: none;
 }
 
-/* .menu > li:hover ul{
-  display: block;
-  transition: all .3s;
-} */
 
 .menu > li{
 	float: left;
 	margin-left: 20px;
+}
+
+.dropdown-open li a{
+	border-radius: 1em;
+	margin-top: 5px;
 }
 
 
