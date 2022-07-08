@@ -139,7 +139,7 @@ table {
 	padding-top: 16px;
 	font-weight: bold;
 	text-align: center;
-	transition: all .3s;
+	transition: all 3s;
 	z-index: 2;
 	background: white;
 }
@@ -147,7 +147,7 @@ table {
 .menu a:hover,.menu a.active{
 	cursor: pointer;
 	color: #009771;
-	transition: all .3s;
+	transition: all 3s;
   }
 
 .menu > li{
@@ -301,7 +301,7 @@ table {
 
 .table tr:hover{
 	background: #f7f7f7;
-	transition: all .3s;
+	transition: all 3s;
 }
 
 .mark{
@@ -397,21 +397,21 @@ table {
 .topbar a:hover{
 	color: #00cb9b;
 	cursor:pointer;
-	transition: all .3s;
+	transition: all 3s;
 }
 
 .btn:hover{
 	background-color: #22b28e;
-	transition: all .3s;
+	transition: all 3s;
 }
 
 .red:hover{
 	color: #00cb9b;
-	transition: all .3s;
+	transition: all 3s;
 }
 
 .btn,.red:hover{
 	cursor: pointer;
-	transition: all .3s;
+	transition: all 3s;
 
 }
