@@ -1,0 +1,18 @@
+.box1,.box2,.box3{
+    height: 100px;
+    width: 100px;
+    display: none;
+}
+
+.box1{
+    background: black;
+
+}
+
+.box2{
+    background: orange;
+}
+
+.box3{
+    background: pink;
+}
