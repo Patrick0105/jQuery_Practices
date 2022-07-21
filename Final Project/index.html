@@ -25,13 +25,13 @@
 <body>
     <div class="wrap">
         <div class="header">
-           <div class="topbar">
+            <div class="topbar">
                 <ul>
                     <li><a class="facebook" href="#"><img src="img/facebookIcon.png" alt="FB">粉絲團</a></li>
                     <li><a class="twitter" href="#"><img src="img/twitterIcon.png" alt="twitter">追蹤我們</a></li>
                 </ul>
-           </div>
-           <div class="menubar">
+            </div>
+            <div class="menubar">
             <div class="logo">
                 <h1><a href="#">Hex School</a></h1>
                 <ul class="menu">
@@ -47,11 +47,25 @@
                     <li><a href="#">聯絡我們</a></li>
                 </ul>
             </div>
-           </div>
-
+            </div>
         </div>
-        <div class="banner">
-            <h2>六角學院<br>讓您奠定良好的前端基礎</h2>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../Final Project/img/banner.png" alt="banner">
+                    <h2 class="txt">六角學院<br>讓您奠定良好的前端基礎</h2>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../Final Project/img/banner.png" alt="banner">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../Final Project/img/banner.png" alt="banner">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
         </div>
         <div class="content">
             <div class="course-list">
@@ -164,6 +178,25 @@
     <script src="../lightbox/js/lightbox.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+          
+            pagination: {
+              el: '.swiper-pagination',
+            },
+          
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          
+            scrollbar: {
+              el: '.swiper-scrollbar',
+            },
+          });
+    </script>
 </body>
 
 </html>
